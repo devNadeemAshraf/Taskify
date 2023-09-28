@@ -5,10 +5,12 @@ import ProtectedRoute from "./lib/protected-route";
 // Pages
 import Home from "./pages/home";
 import Auth from "./pages/auth";
+import Nav from "./components/nav";
 
 function App() {
   return (
     <BrowserRouter>
+      <Nav />
       <Routes>
         <Route
           path="/"
